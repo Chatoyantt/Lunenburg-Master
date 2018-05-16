@@ -30,6 +30,7 @@ class MijnEersteController extends Controller
 		return new Response($this->render('form.html.twig', array('form' => $form->createView())));
 	}
 
+// Kijken of dit werkt
 	/**
 	 * @Route("/klant/wijzig/{klantnummer}", name="klantwijzigen")
 	 */
